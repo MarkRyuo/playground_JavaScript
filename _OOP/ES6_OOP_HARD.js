@@ -38,7 +38,7 @@ class gcashPaymet extends payment {
         return {
             ...getTheDefault,
             gcashNumber: this.gnumber
-        }
+        } // spread operator 
     }
 
     display(){
