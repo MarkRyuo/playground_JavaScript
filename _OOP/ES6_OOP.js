@@ -1,5 +1,5 @@
 
-
+// Easy and normal OOP 
 
 class book {
 
@@ -18,11 +18,9 @@ class book {
 
 //Initialization
 const book1 = new book("Book 1", "John Doe", "2003");
-console.log(book1.display())
 
 
 // Inheritance 
-
 class Magazine extends book {
 
     constructor(name, author, year, endyear){
@@ -33,10 +31,16 @@ class Magazine extends book {
     endingYear(){
         return `This is the end year of this book named ${this.name}, Ending is year ${this.year}`
     }
+
+    //polymorphism (Override)
+    display(){
+        return `Magazine Name: ${this.name}, Author Name: ${this.author}, Created Year: ${this.year}, End Year: ${this.endyear}`
+    }
 }
 
-const endingyear = new Magazine(...book1, "2004") ;
+const endingyear = new Magazine(book1.name, book1.author, book1.year, "2004") ;
 console.log(endingyear.endingYear())
+console.log(endingyear.display())
 
 
 
