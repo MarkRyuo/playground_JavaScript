@@ -39,4 +39,4 @@ console.log(typeof obj)
 console.log(obj.func()) 
 
 const arr = ["Jane Doe", 22, false, [0, 1, 2, 3] ]
-console.log(Array instanceof arr)
+console.log(arr instanceof Array)
