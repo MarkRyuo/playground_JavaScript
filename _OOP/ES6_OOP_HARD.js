@@ -2,7 +2,7 @@
 
 // Payment Method 
 
-//Abstraction
+//Abstraction & Encapsulation
 class payment {
 
     constructor(name, address, contact){
@@ -42,12 +42,12 @@ class gcashPaymet extends payment {
     }
 
     display(){
-        const {name, address, contact, gnumber} = this.getDefault() ;
+        const {name, address, contact, gcashNumber} = this.getDefault() ; //destruction 
         return `
             Name: ${name}
             Address: ${address}
             contact: ${contact}
-            Gcash Number: ${gnumber}
+            Gcash Number: ${gcashNumber}
         `
     }
 }
