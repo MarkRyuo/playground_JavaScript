@@ -1,4 +1,15 @@
-
+/**
+ * class
+ * constructor()
+ * this.
+ * extends
+ * super()
+ * 
+ * Inheritance
+ * Encapsulation
+ * Polymorphism
+ * Abstraction
+ */
 
 // Payment Method 
 
