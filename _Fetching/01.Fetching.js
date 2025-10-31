@@ -2,17 +2,16 @@
 
 //Static Vanilla Js Fetching
 
-fetch("http://sample/v1/api", {
+fetch("https://pokeapi.co/api/v2/pokemon/ditto", {
     method: "GET"
 })
     .then(response => {
         
-        if(!response.ok) throw new Error(`http error status: ${response.status}`)
+        if(!response.ok) throw new Error(`http error status: ${response.status}`) //check if response is ok
         return response.json() // Parse the json data
     })
     .then(data => {
-        
-        cons
+        console.log(data)
     }) // data
-    .catch() // catch the error
+    .catch(error => console.error(error.message)) // catch the error
     .finally() // Always log
