@@ -2,10 +2,10 @@
 
 
 function getData(){
-    fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+    fetch("https://pokeapi.co/api/v2/pokemon/pikach")
         .then(response => {
             if(!response.ok) {
-                throw new Error(`Http Error: Status ${response.status}}`)
+                throw new Error(`Http Error: Status ${response.status}`)
             }
 
             return response.json()
@@ -14,7 +14,9 @@ function getData(){
             console.log(data)
         })
         .catch(error => console.error(`Fetch Failed: ${error.message}`))
-        .finally("Fetch operation Complete!")
+        .finally(() => {
+            console.log("Fetch operation Complete!")
+        })
 }
 
 getData()
