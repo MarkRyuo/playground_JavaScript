@@ -2,7 +2,7 @@
 
 
 function getData(){
-    fetch("https://pokeapi.co/api/v2/pokemon/pikach")
+    fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
         .then(response => {
             if(!response.ok) {
                 throw new Error(`Http Error: Status ${response.status}`)
