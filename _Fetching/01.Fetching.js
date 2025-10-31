@@ -25,3 +25,15 @@ fetch("https://pokeapi.co/api/v2/pokemon/ditto")
   .finally(() => {
     console.log("Fetch operation complete ");
   });
+
+
+/**
+ * Remind this always:
+ * fetch()
+ * response & request
+ * data 
+ * throw new Error 
+ * !response.ok 
+ * response.status
+ * response.json 
+ */
