@@ -18,10 +18,9 @@ function start(power) {
 function main() {
 
     const inpt = prompt("Enter your the power of the user: ")
+    const str = start(inpt) 
 
-    if(start(inpt)){
-        console.log(start())
-    }
+    console.log(str)
 }
 
 
