@@ -23,7 +23,7 @@ async function getData(){
 
             },
             body: {
-                
+                // Pass a inputs
             }
         })
 
