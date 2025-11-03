@@ -1,5 +1,19 @@
 
 
+//response properties
+
+/**
+ * status
+ * ok
+ * headers
+ * url
+ * type
+ * body
+ * bodyUsed
+ * 
+ */
+
+
 
 async function getData(){
     try {
@@ -21,7 +35,6 @@ async function getData(){
 async function main() {
     
     const data = await getData() ;
-
     console.log(data)
 }
 
