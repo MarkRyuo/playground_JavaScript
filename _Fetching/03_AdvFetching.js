@@ -35,6 +35,7 @@ async function getData(){
 
     } catch (error) {
         console.error(`Fetch Failed: ${error.message}`)
+        
     }
 }
 
