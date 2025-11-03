@@ -18,7 +18,13 @@
 async function getData(){
     try {
         const response = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu", {
-            method: "GET"
+            method: "GET",
+            header: {
+
+            },
+            body: {
+                
+            }
         })
 
         if(!response.ok){
