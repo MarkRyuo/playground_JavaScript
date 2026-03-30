@@ -53,3 +53,8 @@
                 - NOT '!' (converting the condition to true or false) 5 == 8 false. 5 !== 8 true 
             
             
+
+# Advance
+
+ 1. Chain Method
+   - 
