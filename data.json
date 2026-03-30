@@ -1,0 +1,94 @@
+{
+  "gadgets": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "brand": "Apple",
+      "category": "Smartphone",
+      "price": 56990,
+      "features": ["A16 chip", "48MP camera", "iOS"],
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "Smartphone",
+      "price": 53990,
+      "features": ["AMOLED display", "5G", "AI features"],
+      "stock": 20
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Redmi Note 13",
+      "brand": "Xiaomi",
+      "category": "Smartphone",
+      "price": 12999,
+      "features": ["108MP camera", "Budget-friendly"],
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "name": "MacBook Air M2",
+      "brand": "Apple",
+      "category": "Laptop",
+      "price": 68990,
+      "features": ["M2 chip", "Lightweight", "Long battery"],
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "name": "ASUS TUF Gaming F15",
+      "brand": "ASUS",
+      "category": "Laptop",
+      "price": 59995,
+      "features": ["RTX GPU", "Gaming performance"],
+      "stock": 8
+    },
+    {
+      "id": 6,
+      "name": "iPad 10th Gen",
+      "brand": "Apple",
+      "category": "Tablet",
+      "price": 29990,
+      "features": ["A14 chip", "10.9-inch display"],
+      "stock": 12
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy Tab S9",
+      "brand": "Samsung",
+      "category": "Tablet",
+      "price": 49990,
+      "features": ["AMOLED", "S Pen included"],
+      "stock": 9
+    },
+    {
+      "id": 8,
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "Headphones",
+      "price": 22990,
+      "features": ["Noise-canceling", "Premium sound"],
+      "stock": 18
+    },
+    {
+      "id": 9,
+      "name": "JBL Flip 6",
+      "brand": "JBL",
+      "category": "Speaker",
+      "price": 6999,
+      "features": ["Waterproof", "Portable"],
+      "stock": 25
+    },
+    {
+      "id": 10,
+      "name": "Apple Watch Series 9",
+      "brand": "Apple",
+      "category": "Smartwatch",
+      "price": 27990,
+      "features": ["Fitness tracking", "ECG"],
+      "stock": 14
+    }
+  ]
+}
